@@ -6,7 +6,11 @@ html, body {
 	
 }
 
-.myphoto-img{
+.split {
+	border-bottom: 1px #A99E9E solid;
+}
+
+.myphoto-img {
 	max-height: 150px;
 }
 
