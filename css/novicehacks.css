@@ -6,9 +6,17 @@ html, body {
 	
 }
 
+.myphoto-img{
+	max-height: 150px;
+}
+
+.logo-img {
+	height: 120px;
+}
+
 .hero-unit {
 	color: whitesmoke;
-	background-color: #3C3B5E;
+	background-color: #3A3A4F; /*#3C3B5E;*/
 }
 
 p {
