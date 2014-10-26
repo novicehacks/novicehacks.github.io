@@ -43,8 +43,30 @@ p {
 	font-variant: small-caps;
 }
 
+#body-header h3 {
+	color: red;
+	border-top: 1px #A99E9E solid;
+	border-bottom: 1px #A99E9E solid;
+	padding: 14px 0 5px 0;
+	margin-bottom: 25px;
+	text-align: center;
+	font-variant: small-caps;
+}
+
 #margin-div {
 	margin: 20px;
+}
+
+.round-link-btn li a{
+	color: white;
+	/*background-color: rgb(100, 36, 46);
+	border-color: black;*/
+	background-color: rgb(148, 131, 133);
+	border-color: rgb(150, 133, 133);
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
 }
 
 /* Wrapper for page content to push down footer */
