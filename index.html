@@ -27,12 +27,6 @@
 <script type="text/javascript"
 	src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-544a120d4a8c0ff7"
 	async="async"></script>
-
-
-<!-- <link
-	href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'
-	rel='stylesheet' type='text/css'>
- -->
 <!-- BootMetro CSS and Scripts -->
 <script type="text/javascript"
 	src="http://onecloud-novicehacks.rhcloud.com/external/bootmetro/assets/js/min/bootstrap.min.js"></script>
@@ -48,34 +42,17 @@
 	href="http://onecloud-novicehacks.rhcloud.com/external/bootmetro/assets/css/bootmetro-ui-light.css">
 
 <link rel="stylesheet" type="text/css" href="css/novicehacks.css">
-
-<script>
-	//$.fn.modal.noConflict();
-</script>
-<body>
+<!-- Internal Scripts -->
+<script src="./js/global-variables.js" type="text/javascript"></script>
+<script src="./js/htmlloader.js" type="text/javascript"></script>
+</head>
+<body onload="activateHeader('home');">
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="offset1 span10"
 				style="background-color: rgba(16, 16, 16, 0.03);">
-				<div id="follow-banner">&nbsp;</div>
+				<div id="includeHeader">&nbsp;</div>
 
-				<!--  Header and the Hero Unit -->
-				<div id="header">
-					<ul class="nav nav-pills">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="http://www.novicehacks.info">Blog</a></li>
-						<li class="disabled"><a href="#">Products</a></li>
-					</ul>
-				</div>
-				<div class="hero-unit">
-					<span class="pull-right"><img src="./img/nhlogo.png"
-						class="logo-img" alt="NoviceHacks"></img></span>
-					<h1>Novice Hacks!</h1>
-					<p>Hacks, Tips, Tricks and Solutions for Novice Programmers</p>
-					<p>&nbsp;</p>
-					<span class="addthis_sharing_toolbox"></span>
-				</div>
 				<div class="offset2 span8">
 					<div id="body-header">
 						<p>Fundamental W-W-W's of the novicehacks</p>
@@ -147,12 +124,7 @@
 					<div class="span12">&nbsp;</div>
 				</div>
 				<!-- Footer -->
-				<div class="row-fluid footer">
-					<div dir="ltr">
-						<span style="font-size: x-small; line-height: 15px">Hacks,
-							Tips for Novice Programmers and community by a Novice Programmer</span>
-					</div>
-				</div>
+				<div id="includeFooter"></div>
 			</div>
 		</div>
 	</div>
