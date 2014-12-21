@@ -14,5 +14,9 @@ var NavigationOb = {
 	"blog" : {
 		"name" : "Blog",
 		"id" : "nav-blog"
+	},
+	"contact" : {
+		"name" : "Contact",
+		"id" : "nav-contact"
 	}
 }
